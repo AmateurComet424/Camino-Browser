@@ -1,0 +1,80 @@
+{
+    IBClasses =     (
+                {
+            CLASS = ExtendedTableView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSTableView;
+        },
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSMenu;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSMenuItem;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            CLASS = NSPreferencePane;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_firstKeyView" = id;
+                "_initialKeyView" = id;
+                "_lastKeyView" = id;
+                "_window" = id;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSResponder;
+        },
+                {
+            ACTIONS =             {
+                clickCertificateSelectionBehavior = id;
+                clickEnableLeaveEncrypted = id;
+                clickEnableViewMixed = id;
+                clickSafeBrowsing = id;
+                editOverrides = id;
+                editOverridesDone = id;
+                removeAllOverrides = id;
+                removeOverrides = id;
+                showCertificates = id;
+            };
+            CLASS = OrgMozillaCaminoPreferenceSecurity;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                mCertificateBehavior = NSMatrix;
+                mLeaveEncrypted = NSButton;
+                mOverridePanel = id;
+                mOverridesController = NSArrayController;
+                mOverridesTable = ExtendedTableView;
+                mSafeBrowsing = NSButton;
+                mViewMixed = NSButton;
+            };
+            SUPERCLASS = PreferencePaneBase;
+        },
+                {
+            CLASS = PopupMenuButton;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSButton;
+        },
+                {
+            CLASS = PreferencePaneBase;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSPreferencePane;
+        }
+    );
+    IBVersion = 1;
+}

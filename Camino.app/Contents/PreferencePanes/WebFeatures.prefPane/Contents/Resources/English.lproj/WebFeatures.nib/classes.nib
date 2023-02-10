@@ -1,0 +1,75 @@
+{
+    IBClasses =     (
+                {
+            CLASS = ExtendedTableView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSTableView;
+        },
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSPreferencePane;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_firstKeyView" = id;
+                "_initialKeyView" = id;
+                "_lastKeyView" = id;
+                "_window" = id;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            ACTIONS =             {
+                addFlashblockWhitelistSite = id;
+                addWhitelistSite = id;
+                clickEnableAdBlocking = id;
+                clickEnableAnnoyanceBlocker = id;
+                clickEnableFlashblock = id;
+                clickEnableJS = id;
+                clickEnableJava = id;
+                clickEnablePopupBlocking = id;
+                clickPreventAnimation = id;
+                editFlashblockWhitelist = id;
+                editFlashblockWhitelistDone = id;
+                editWhitelist = id;
+                editWhitelistDone = id;
+                removeFlashblockWhitelistSite = id;
+                removeWhitelistSite = id;
+                tabFocusBehaviorChanged = id;
+            };
+            CLASS = OrgMozillaCaminoPreferenceWebFeatures;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                mAddButton = NSButton;
+                mAddField = NSTextField;
+                mAddFlashblockButton = NSButton;
+                mAddFlashblockField = NSTextField;
+                mEditFlashblockWhitelist = NSButton;
+                mEditWhitelist = NSButton;
+                mEnableAdBlocking = NSButton;
+                mEnableAnnoyanceBlocker = NSButton;
+                mEnableFlashblock = NSButton;
+                mEnableJS = NSButton;
+                mEnableJava = NSButton;
+                mEnablePopupBlocking = NSButton;
+                mFlashblockWhitelistPanel = id;
+                mFlashblockWhitelistTable = ExtendedTableView;
+                mPolicyColumn = NSTableColumn;
+                mPreventAnimation = NSButton;
+                mTabBehaviorPopup = NSPopUpButton;
+                mWhitelistPanel = id;
+                mWhitelistTable = ExtendedTableView;
+            };
+            SUPERCLASS = PreferencePaneBase;
+        },
+                {
+            CLASS = PreferencePaneBase;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSPreferencePane;
+        }
+    );
+    IBVersion = 1;
+}

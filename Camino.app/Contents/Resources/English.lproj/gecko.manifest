@@ -1,0 +1,12 @@
+
+# DTD
+# Override Gecko .dtd and stubborn .properties files with localized versions
+# Properties
+override chrome://global/locale/config.dtd           config.dtd
+override chrome://global/locale/global.dtd           global.dtd
+override chrome://global/locale/mozilla.dtd          mozilla.dtd
+override chrome://global/locale/netError.dtd         netError.dtd
+override chrome://global/locale/security/caps.properties caps.properties
+override chrome://global/locale/typeaheadfind.properties typeaheadfind.properties
+override chrome://global/locale/xml/prettyprint.dtd  prettyprint.dtd
+override chrome://mozapps/locale/plugins/plugins.dtd plugins.dtd

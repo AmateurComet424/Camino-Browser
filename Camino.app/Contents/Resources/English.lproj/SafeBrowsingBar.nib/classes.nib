@@ -1,0 +1,76 @@
+{
+    IBClasses =     (
+                {
+            ACTIONS =             {
+                blacklistPopups = id;
+                closeSafeBrowsingBar = id;
+                hideBlockedPopupView = id;
+                reloadWithNewCharset = NSString;
+                reportIncorrectlyBlockedSite = id;
+                runAwayFromBlockedSite = id;
+                showPopups = id;
+                unblockPopups = id;
+            };
+            CLASS = BrowserWrapper;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                mBlockedPopupBar = TransientBar;
+                mBlockedPopupCloseButton = RolloverImageButton;
+                mBlockedPopupLabel = NSTextField;
+                mCreateDelegate = id;
+                mDelegate = id;
+                mSafeBrowsingBar = SafeBrowsingBar;
+                mSafeBrowsingBarLabel = NSTextField;
+                mSafeBrowsingBlockedBar = SafeBrowsingBlockedBar;
+            };
+            SUPERCLASS = NSView;
+        },
+                {
+            CLASS = NSMenu;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            CLASS = NSString;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSResponder;
+        },
+                {
+            CLASS = RolloverImageButton;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSButton;
+        },
+                {
+            CLASS = SafeBrowsingBar;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                mCloseButton = RolloverImageButton;
+                mWarningLabelTextField = NSTextField;
+            };
+            SUPERCLASS = TransientBar;
+        },
+                {
+            CLASS = SafeBrowsingBlockedBar;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                mCloseButton = RolloverImageButton;
+            };
+            SUPERCLASS = TransientBar;
+        },
+                {
+            CLASS = TransientBar;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSView;
+        }
+    );
+    IBVersion = 1;
+}
